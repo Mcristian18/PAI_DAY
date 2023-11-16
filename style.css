@@ -289,6 +289,8 @@
  .icons .row {
      width: 100%;
      text-align: center;
+     position: absolute;
+     z-index: 2;
 }
 
  .icons .row span {
@@ -589,7 +591,6 @@
     position: absolute;
     width: 285px;
     height: 175px;
-    z-index: -1;
     overflow: hidden;
     display: none;
   }
