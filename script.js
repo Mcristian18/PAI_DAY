@@ -273,6 +273,7 @@ function openBox() {
         // Show the video element
         var videoElement = document.getElementById('video');
         videoElement.style.display = 'block';
+        videoElement.classList.add('videoHide');
         return;
     }
     setTimeout(openBox, stepMinutes[step - 1]);
