@@ -589,6 +589,7 @@
     position: absolute;
     width: 285px;
     height: 175px;
+    z-index: -1;
     overflow: hidden;
     display: none;
   }
